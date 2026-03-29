@@ -3,7 +3,7 @@ cask "grits" do
   name "grits"
   desc "CLI & MCP Server for Grits — Agentic PM & OKR platform"
   homepage "https://github.com/gritive/grits-agent"
-  version "0.1.5"
+  version "0.1.6"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "grits" do
   on_macos do
     on_intel do
       url "https://github.com/gritive/grits-agent/releases/download/v#{version}/grits_#{version}_darwin_amd64.tar.gz"
-      sha256 "98a138cc5b54f4dacdc2d91238894d79b7153b6f37b4bc9ddc3d577642e5fd55"
+      sha256 "db7ddd3c965e769c709a2dcaf455fdc0799e0d37976fbbae5b35ce59fee7a120"
     end
     on_arm do
       url "https://github.com/gritive/grits-agent/releases/download/v#{version}/grits_#{version}_darwin_arm64.tar.gz"
-      sha256 "bfe69e3995e17c69463984f6814720cd3c0b660434f24eb233e0289c98cd0c40"
+      sha256 "5590e23b8e8797b97c3acec399ad567479593f5c689362b092fbbded843740aa"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/gritive/grits-agent/releases/download/v#{version}/grits_#{version}_linux_amd64.tar.gz"
-      sha256 "1c2f0e6dff2353407fe43c1dcff6c64bc365d9371717c6b10e77c79a0689d0ad"
+      sha256 "d3ede43da802319699c6fe14664c9a07cf8664aa6e73a432527c20572acf0d2b"
     end
     on_arm do
       url "https://github.com/gritive/grits-agent/releases/download/v#{version}/grits_#{version}_linux_arm64.tar.gz"
-      sha256 "ead8c5055b0d49cda5d1ebc807248b9ad4549c4f6d0c3584aed219a7d14b90f3"
+      sha256 "cc2ffee264e9764f5eb153d6ae9e3f86389eff1f800d8afa9f98eb917d391272"
     end
   end
 
